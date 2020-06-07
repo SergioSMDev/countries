@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="task1.js" defer></script>
+    <script src="task2.js" async></script>
+</head>
+<body>
+    <div class="root">
+        <div class="sidebar">
+            <form action="#" name="regions">
+                <label><input type="radio" name="region" value="Americas">Americas</label>
+                <label><input type="radio" name="region" value="Africa">Africa</label>
+                <label><input type="radio" name="region" value="Asia">Asia</label>
+                <label><input type="radio" name="region" value="Europe">Europe</label>
+                <label><input type="radio" name="region" value="Oceania">Oceania</label>
+            </form>
+        </div>
+        <div class="loader-container hidden">
+            <div class="loader">
+                <div class="loader-ring"></div>
+            </div>
+        </div>
+        <div class="countries-container" id="countries"></div>
+    </div>
+</body>
+</html>
